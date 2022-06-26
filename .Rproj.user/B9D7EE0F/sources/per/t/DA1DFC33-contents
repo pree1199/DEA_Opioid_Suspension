@@ -1,0 +1,12 @@
+deadata<- read.csv("C:\\Users\\pree1\\OneDrive - Johns Hopkins\\Documents\\DEA_Opioid_Suspension\\DEA_Cases.csv")
+numtotalcases<- dim (deadata)[1] #total cases in this dataset
+tlpp_overall<- mean(deadata$TLPP)
+
+#Table 2 Analysis
+dea_cases<- deadata[deadata$DEA.Involvement == "1", ] #cases in which dea involvement was reported
+num_deacases<-dim (dea_cases)[1] #total cases with dea involvement
+nondea_cases<- deadata[deadata$DEA.Involvement == "0", ] #cases in which dea involvement was not reported
+num_nondeacases<-dim (dea_cases)[1] #total cases without dea involvement
+tlpp_dea<- mean(dea_cases$TLPP)
+tlpp_nondea<- mean(nondea_cases$TLPP)
+

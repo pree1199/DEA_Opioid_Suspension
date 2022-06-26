@@ -1,0 +1,27 @@
+{
+    "id": "DA1DFC33",
+    "path": "~/DEA_Opioid_Suspension/DEA_TLS_Analysis.R",
+    "project_path": "DEA_TLS_Analysis.R",
+    "type": "r_source",
+    "hash": "4180625405",
+    "contents": "",
+    "dirty": false,
+    "created": 1656096268837.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1656100935,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1656100935066,
+    "read_only": false,
+    "read_only_alternatives": []
+}
